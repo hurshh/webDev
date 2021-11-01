@@ -1,0 +1,67 @@
+* {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+    background-image: url("assests/bg.svg");
+}
+
+.introText{
+    height: 30%;
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 14%;
+    float: left;
+    /*background-color: beige;*/
+}
+
+#intro{
+    font-family: Arial;
+    font-size: 200px;
+    font-weight: bolder;
+    color: white;
+}
+
+.maindiv{
+    background-color: floralwhite;
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+    float: right;
+    margin: 0;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#loginInfo{
+    height: 50%;
+    width: 80%;
+    display: block;
+    /*background-color: black;*/
+    border: solid grey 1px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 25%;
+    font-family: Arial;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+#login{
+    display: block;
+}
+
+#username{
+    font-size: 20px;
+    text-align: left;
+    display: block;
+}
