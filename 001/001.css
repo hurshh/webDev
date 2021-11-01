@@ -45,13 +45,13 @@ body {
     height: 50%;
     width: 80%;
     display: block;
-    /*background-color: black;*/
+    background-color: white;
     border: solid grey 1px;
     border-radius: 50px;
     margin: auto;
     margin-top: 25%;
     font-family: Arial;
-    font-size: 50px;
+    font-size: 30px;
     color: black;
     text-align: center;
 }
@@ -64,4 +64,24 @@ body {
     font-size: 20px;
     text-align: left;
     display: block;
+}
+
+#header{
+    height: 40px;
+}
+#input{
+    height: 40px;
+    width: 70%;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+#submit{
+    height: 40px;
+    width: 70%;
+    border-radius: 50px;
+    background-color: plum;
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px solid;
 }
