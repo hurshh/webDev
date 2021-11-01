@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: floralwhite;
+}
+
+#calculatorBody{
+    height: 700px;
+    width: 500px;
+    background-color: coral;
+    margin: auto auto;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: saddlebrown solid 4px;
+}
+
+#resultbar{
+    width: 90%;
+    height: 180px;
+    background-color: white;
+    margin: auto;
+    border: saddlebrown solid 2px;
+    border-radius: 25px;
+}
+#previousResult{
+    text-align: right;
+    margin-right: 24px;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;
+    color: grey;
+}
+#currentEqn{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+}
+#result{
+    text-align: right;
+    margin-right: 24px;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+#buttonBody{
+    width: 500px;
+    height: 500px;
+    margin: 5px 5px 5px 5px;
+    align-content: center;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.numberButton{
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    border: none;
+    background-color: saddlebrown;
+    border-radius: 50px;
+    margin: 5px 5px 5px 5px;
+    font-size: 40px;
+    color: salmon;
+}
+.functionButton{
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 50px;
+    margin: 5px 5px 5px 5px;
+    font-size: 40px;
+}
+.controlButton{
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    border: none;
+    background-color: turquoise;
+    border-radius: 50px;
+    margin: 5px 5px 5px 5px;
+    font-size: 40px;
+    color: brown;
+}
